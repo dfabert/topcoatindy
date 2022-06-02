@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/www.topcoatindy.com/static/css/main.0a49fe2f.css",
-    "main.js": "/www.topcoatindy.com/static/js/main.3880155a.js",
-    "static/media/Image3.jpg": "/www.topcoatindy.com/static/media/Image3.b7a62bc74f86857bf609.jpg",
-    "static/media/TC-Black-Background_transparent.png": "/www.topcoatindy.com/static/media/TC-Black-Background_transparent.ea3c803d81a0062b9467.png",
-    "index.html": "/www.topcoatindy.com/index.html",
-    "main.0a49fe2f.css.map": "/www.topcoatindy.com/static/css/main.0a49fe2f.css.map",
-    "main.3880155a.js.map": "/www.topcoatindy.com/static/js/main.3880155a.js.map"
+    "main.css": "/static/css/main.8e6a343f.css",
+    "main.js": "/static/js/main.ebbdb2bb.js",
+    "static/media/Image3.jpg": "/static/media/Image3.b7a62bc74f86857bf609.jpg",
+    "static/media/TC-Black-Background_transparent.png": "/static/media/TC-Black-Background_transparent.ea3c803d81a0062b9467.png",
+    "index.html": "/index.html",
+    "main.8e6a343f.css.map": "/static/css/main.8e6a343f.css.map",
+    "main.ebbdb2bb.js.map": "/static/js/main.ebbdb2bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a49fe2f.css",
-    "static/js/main.3880155a.js"
+    "static/css/main.8e6a343f.css",
+    "static/js/main.ebbdb2bb.js"
   ]
 }
