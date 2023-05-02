@@ -1,5 +1,9 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1200px;
 }
 
 .hero {
@@ -17,3 +21,4 @@
 .hero a:visited{
   color: whitesmoke
 }
+
