@@ -3,10 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home'
 import { Painting } from './pages/Painting'
 import { Solutions } from './pages/Solutions'
+import { NavBar } from './components/NavBar';
 
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/painting' element={<Painting />} />

@@ -1,0 +1,35 @@
+nav {
+    color: white;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav > .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px
+  }
+  
+  nav > div > .middle-link-wrapper {
+    display: flex;
+    gap: 100px
+  }
+
+  @media (max-width: 767px) {
+    nav > div {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px
+    }
+  
+    nav > div > .middle-link-wrapper {
+      display: none
+    }
+  }
