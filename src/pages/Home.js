@@ -1,7 +1,7 @@
 import { Hero } from '../components/Hero'
 
 export function Home() {
-    return <>
+    return <div className='page'>
             <Hero />
-        </>
+        </div>
 }
