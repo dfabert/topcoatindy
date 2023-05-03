@@ -20,7 +20,7 @@ nav {
     gap: 100px
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     nav > div {
       width: 100%;
       display: flex;
