@@ -1,0 +1,18 @@
+.services {
+    padding: 20px 0
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.services-list > h4 {
+    padding: 20px 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin: 20px 10px
+}

@@ -1,6 +1,6 @@
 import '../styles/hero.css';
 
-export function Hero() {
+export const Hero = () => {
 
     return <div className="hero">
         <div className='hero-text-wrapper'>
