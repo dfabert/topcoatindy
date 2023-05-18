@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
 import { useState } from 'react';
 
-const navbarOptions = [
+export const navbarOptions = [
     {   
         title:   {page:  "Services", path: '/services'},
         pages: [
@@ -27,9 +27,6 @@ const navbarOptions = [
 
 export function NavBar() {
     const [activeDropdown, setActiveDropdown] = useState(null);
-
-    console.log(activeDropdown)
-
     const location = useLocation().pathname;
 
     const CreateTextLink = ({text, path}) => {
