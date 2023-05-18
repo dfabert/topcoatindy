@@ -1,35 +1,58 @@
 nav {
-    color: white;
-    background-color: black;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  position: relative;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
   
-  nav > .content {
+nav > .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px
+}
+  
+nav > div > .middle-link-wrapper {
+  display: flex;
+  gap: 100px;
+  padding: 10px;
+}
+
+.navDropdownTitle {
+  position: relative;
+}
+
+.navDropdown {
+  position: absolute;
+  top: 32px;
+  left: -30px;
+  background-color: black;
+  padding: 20px 30px;
+}
+
+.navDropdownLink {
+  white-space:nowrap;
+  padding: 20px 20px;
+}
+
+.navDropdownLink:hover {
+  background-color: #222222;
+}
+
+@media (max-width: 768px) {
+  nav > div {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px
   }
-  
-  nav > div > .middle-link-wrapper {
-    display: flex;
-    gap: 100px
-  }
 
-  @media (max-width: 768px) {
-    nav > div {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 50px
-    }
-  
-    nav > div > .middle-link-wrapper {
-      display: none
-    }
+  nav > div > .middle-link-wrapper {
+    display: none
   }
+}
