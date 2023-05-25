@@ -23,7 +23,11 @@ const Contact = () => {
             <div>
                 <h2>Contact us for a free quote</h2>
                 <div className='contact-columns'>
-                    <h5>(317) 834-7105</h5>
+                    <div>
+                        <button>
+                            <a href="tel:317-834-7105">(317) 834-7105</a>
+                        </button>
+                    </div>
                     <div>
                         <h5>1400 Hansel parkway</h5>
                         <h5>Mooresville, IN 46158</h5>

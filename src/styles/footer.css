@@ -1,0 +1,17 @@
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer > img {
+    height: 75px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+  }

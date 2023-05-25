@@ -6,7 +6,7 @@ export const Hero = () => {
         <div className='hero-text-wrapper'>
             <div>High Standards</div>
             <div>Family Owned</div>
-            <div>Detail Oriented</div>
+            <div>Detail-Oriented</div>
         </div>
     </div>
 }
