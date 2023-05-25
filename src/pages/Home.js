@@ -1,7 +1,9 @@
 import { Hero } from '../components/Hero';
 import { navbarOptions } from '../components/NavBar';
+import contactPhoto from '../assets/Contact.jpg';
 
 import '../styles/home.css'
+
 
 const Services = () => {
     return <div className='services page content'>
@@ -14,9 +16,28 @@ const Services = () => {
     </div>
 }
 
+const Contact = () => {
+    return <div className='contact-background'>
+        <div className='contact content'>
+            <img src={contactPhoto} alt='contact photo' />
+            <div>
+                <h2>Contact us for a free quote</h2>
+                <div className='contact-columns'>
+                    <h5>(317) 834-7105</h5>
+                    <div>
+                        <h5>1400 Hansel parkway</h5>
+                        <h5>Mooresville, IN 46158</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
 export const Home = () => {
     return <div className='home'>
             <Hero />
             <Services />
+            <Contact/>
         </div>
 }
