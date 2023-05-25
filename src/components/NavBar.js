@@ -54,7 +54,10 @@ export function NavBar() {
                     </div>
                 )}
             </div>
-            <CreateTextLink text="Contact" path='/contact' />
+            {/* <CreateTextLink text="Contact" path='/contact' /> */}
+            <button>
+                <a href="tel:317-834-7105">(317) 834-7105</a>
+            </button>
         </div>
     </nav>
 
